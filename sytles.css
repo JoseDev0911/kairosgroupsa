@@ -1,0 +1,179 @@
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #081412;
+    color: #E2E8F0;
+    overflow-x: hidden;
+}
+
+/* 1. NAVEGACIÓN SUPERIOR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: linear-gradient(180deg, #122824 0%, #081412 100%);
+    border-bottom: 1px solid #1E3E38;
+}
+
+.logo {
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #8A9A86;
+}
+
+.nav-links a {
+    color: #94A3B8;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #00E6A8;
+}
+
+.btn-glow {
+    border: 1px solid #00E6A8;
+    color: #FFFFFF;
+    background: rgba(0, 230, 168, 0.1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 230, 168, 0.3);
+}
+
+/* 2. HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    background: radial-gradient(circle at 70% 50%, #132A26 0%, #071210 100%);
+    gap: 30px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.hero-content p {
+    color: #A0AEC0;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-solid {
+    background: #00875A;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.btn-outline {
+    border: 1px solid #CBD5E1;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.hero-banner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+    border: 1px solid #1E3E38;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* 3. BARRA DE MÉTRICAS */
+.stats-bar {
+    display: flex;
+    justify-content: space-around;
+    background: #0E1F1C;
+    padding: 15px 5%;
+    border-top: 1px solid #1E3E38;
+    border-bottom: 1px solid #1E3E38;
+    color: #94A3B8;
+    font-size: 0.9rem;
+}
+
+.stats-bar span {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+/* 4. TARJETAS DE SERVICIOS */
+.services {
+    display: flex;
+    gap: 20px;
+    padding: 50px 5%;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(145deg, #112421 0%, #0A1715 100%);
+    border: 1px solid #1E3E38;
+    padding: 30px 20px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.02);
+}
+
+.card:hover {
+    border-color: #00E6A8;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #8194A7;
+    font-size: 0.85rem;
+}

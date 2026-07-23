@@ -177,3 +177,65 @@ body {
     color: #8194A7;
     font-size: 0.85rem;
 }
+
+/* Estilos para la sección Nosotros */
+.about-section {
+    padding: 60px 20px;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    text-align: center;
+}
+
+.about-section .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #111827;
+    letter-spacing: 1px;
+}
+
+.about-lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #4b5563;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    text-align: left;
+}
+
+.about-item {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.about-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #2563eb;
+}
+
+.about-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #6b7280;
+    margin: 0;
+}
